@@ -87,6 +87,7 @@ GeMSTONE-main/
 
 
 *1000G_hg19*
+
 | Field | Type         | Null | Key | Default | Extra |
 |-------|--------------|------|-----|---------|-------|
 | CHROM | varchar(3)   | NO   | PRI |         |       |
