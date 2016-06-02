@@ -1,12 +1,12 @@
 # Directory structure
 
-GeMSTONE-data/: non-MySQL data sources 
-GeMSTONE-main/
-	scripts/: GeMSTONE source code
-	query/
-		data/: Inputs (VCF, PED etc. files as uploaded)
-		output/: Result files and intermediate files
-		D3_output/: Output data for visualization
+*GeMSTONE-data/: non-MySQL data sources 
+*GeMSTONE-main/
+..*scripts/: GeMSTONE source code
+..*query/
+....*data/: Inputs (VCF, PED etc. files as uploaded)
+....*output/: Result files and intermediate files
+....*D3_output/: Output data for visualization
 
 
 
