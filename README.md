@@ -30,7 +30,7 @@ GeMSTONE-main/
 
 3. Databases required
 
-|--------------------------|
+
 | Tables_in_germline       |
 |--------------------------|
 | 1000G_hg19               |
@@ -81,7 +81,7 @@ GeMSTONE-main/
 | m3D_modbase_models       |
 | m3D_pdb_structures_index |
 | pdbid_chain_uniprot      |
-|--------------------------|
+
 
 
 *1000G_hg19*
