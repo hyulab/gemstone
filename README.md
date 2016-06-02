@@ -104,8 +104,7 @@ GeMSTONE-main/
 
 
 
-*1*000G_hg38**
-
+**1000G_hg38**
 | Field | Type         | Null | Key | Default | Extra |
 |-------|--------------|------|-----|---------|-------|
 | CHROM | varchar(3)   | NO   | PRI | NULL    |       |
@@ -122,8 +121,7 @@ GeMSTONE-main/
 
 
 
-*B*IOCARTA_EntrezID**
-
+**BIOCARTA_EntrezID**
 | Field     | Type           | Null | Key | Default | Extra |
 |-----------|----------------|------|-----|---------|-------|
 | Pathway   | varchar(500)   | YES  |     | NULL    |       |
@@ -132,8 +130,7 @@ GeMSTONE-main/
 
 
 
-*C*ancer_Gene_Census**
-
+**Cancer_Gene_Census**
 | Field              | Type         | Null | Key | Default | Extra |
 |--------------------|--------------|------|-----|---------|-------|
 | Tumor_type         | varchar(255) | YES  |     | NULL    |       |
@@ -142,8 +139,7 @@ GeMSTONE-main/
 
 
 
-*C*linVar**
-
+**ClinVar**
 | Field          | Type         | Null | Key | Default | Extra |
 |----------------|--------------|------|-----|---------|-------|
 | UniProt        | varchar(20)  | YES  |     | NULL    |       |
@@ -154,8 +150,7 @@ GeMSTONE-main/
 
 
 
-*D*OMAINS**
-
+**DOMAINS**
 | Field     | Type     | Null | Key | Default | Extra |
 |-----------|----------|------|-----|---------|-------|
 | id        | int(11)  | NO   | MUL | NULL    |       |
@@ -168,8 +163,7 @@ GeMSTONE-main/
 
 
 
-*E*SP6500**
-
+**ESP6500**
 | Field  | Type         | Null | Key | Default | Extra |
 |--------|--------------|------|-----|---------|-------|
 | CHROM  | varchar(3)   | NO   | PRI |         |       |
@@ -182,8 +176,7 @@ GeMSTONE-main/
 
 
 
-*E*SP6500_hg19**
-
+**ESP6500_hg19**
 | Field  | Type         | Null | Key | Default | Extra |
 |--------|--------------|------|-----|---------|-------|
 | CHROM  | varchar(3)   | NO   | PRI | NULL    |       |
@@ -196,8 +189,7 @@ GeMSTONE-main/
 
 
 
-*E*SP6500_hg38**
-
+**ESP6500_hg38**
 | Field  | Type         | Null | Key | Default | Extra |
 |--------|--------------|------|-----|---------|-------|
 | CHROM  | varchar(3)   | NO   | PRI | NULL    |       |
@@ -210,8 +202,7 @@ GeMSTONE-main/
 
 
 
-*E*xAC_hg19**
-
+**ExAC_hg19**
 | Field  | Type         | Null | Key | Default | Extra |
 |--------|--------------|------|-----|---------|-------|
 | CHROM  | varchar(3)   | NO   | PRI |         |       |
@@ -239,8 +230,7 @@ GeMSTONE-main/
 
 
 
-*E*xAC_hg38**
-
+**ExAC_hg38**
 | Field  | Type         | Null | Key | Default | Extra |
 |--------|--------------|------|-----|---------|-------|
 | CHROM  | varchar(3)   | NO   | PRI | NULL    |       |
@@ -268,8 +258,7 @@ GeMSTONE-main/
 
 
 
-*E*xAC_r03_coverage**
-
+**ExAC_r03_coverage**
 | Field       | Type        | Null | Key | Default | Extra |
 |-------------|-------------|------|-----|---------|-------|
 | CHROM       | varchar(3)  | NO   | PRI |         |       |
@@ -288,8 +277,7 @@ GeMSTONE-main/
 
 
 
-*G*O_biological_process**
-
+**GO_biological_process**
 | Field    | Type           | Null | Key | Default | Extra |
 |----------|----------------|------|-----|---------|-------|
 | BP       | varchar(100)   | YES  |     | NULL    |       |
@@ -298,8 +286,7 @@ GeMSTONE-main/
 
 
 
-*G*O_cellular_component**
-
+**GO_cellular_component**
 | Field    | Type           | Null | Key | Default | Extra |
 |----------|----------------|------|-----|---------|-------|
 | CC       | varchar(100)   | YES  |     | NULL    |       |
@@ -308,8 +295,7 @@ GeMSTONE-main/
 
 
 
-*G*O_molecular_function**
-
+**GO_molecular_function**
 | Field    | Type           | Null | Key | Default | Extra |
 |----------|----------------|------|-----|---------|-------|
 | MF       | varchar(100)   | YES  |     | NULL    |       |
@@ -318,8 +304,7 @@ GeMSTONE-main/
 
 
 
-*G*ene_Damage_Index**
-
+**Gene_Damage_Index**
 | Field        | Type        | Null | Key | Default | Extra |
 |--------------|-------------|------|-----|---------|-------|
 | Gene         | varchar(20) | NO   | PRI | NULL    |       |
@@ -338,8 +323,7 @@ GeMSTONE-main/
 
 
 
-*G*ene_InteractionDB**
-
+**Gene_InteractionDB**
 | Field           | Type         | Null | Key | Default | Extra |
 |-----------------|--------------|------|-----|---------|-------|
 | Gene_name       | varchar(100) | YES  |     | NULL    |       |
@@ -351,8 +335,7 @@ GeMSTONE-main/
 
 
 
-*H*GMD_disease_gene**
-
+**HGMD_disease_gene**
 | Field     | Type          | Null | Key | Default | Extra |
 |-----------|---------------|------|-----|---------|-------|
 | Disease   | varchar(1000) | YES  |     | NULL    |       |
@@ -361,8 +344,7 @@ GeMSTONE-main/
 
 
 
-*H*INT_interactors**
-
+**HINT_interactors**
 | Field  | Type        | Null | Key | Default | Extra |
 |--------|-------------|------|-----|---------|-------|
 | id_A   | varchar(40) | YES  |     | NULL    |       |
@@ -372,8 +354,7 @@ GeMSTONE-main/
 
 
 
-*H*SIN_INTERFACE**
-
+**HSIN_INTERFACE**
 | Field                | Type        | Null | Key | Default | Extra |
 |----------------------|-------------|------|-----|---------|-------|
 | ENTREZ_ID            | varchar(20) | YES  |     | NULL    |       |
@@ -385,8 +366,7 @@ GeMSTONE-main/
 
 
 
-*K*EGG_EntrezID**
-
+**KEGG_EntrezID**
 | Field     | Type           | Null | Key | Default | Extra |
 |-----------|----------------|------|-----|---------|-------|
 | Pathway   | varchar(500)   | YES  |     | NULL    |       |
@@ -395,8 +375,7 @@ GeMSTONE-main/
 
 
 
-*K*egg_human**
-
+**Kegg_human**
 | Field     | Type         | Null | Key | Default | Extra |
 |-----------|--------------|------|-----|---------|-------|
 | Kegg_ID   | varchar(20)  | YES  |     | NULL    |       |
@@ -406,8 +385,7 @@ GeMSTONE-main/
 
 
 
-*L*IBRARY**
-
+**LIBRARY**
 | Field       | Type     | Null | Key | Default | Extra |
 |-------------|----------|------|-----|---------|-------|
 | id          | char(15) | NO   | PRI | NULL    |       |
@@ -416,8 +394,7 @@ GeMSTONE-main/
 
 
 
-*O*MIM_std_all**
-
+**OMIM_std_all**
 | Field     | Type          | Null | Key | Default | Extra |
 |-----------|---------------|------|-----|---------|-------|
 | Disease   | varchar(1000) | YES  |     | NULL    |       |
@@ -425,8 +402,7 @@ GeMSTONE-main/
 
 
 
-*O*NTOLOGIES**
-
+**ONTOLOGIES**
 | Field       | Type    | Null | Key | Default | Extra |
 |-------------|---------|------|-----|---------|-------|
 | id          | char(2) | NO   | PRI | NULL    |       |
@@ -434,8 +410,7 @@ GeMSTONE-main/
 
 
 
-*P*HENOTYPES**
-
+**PHENOTYPES**
 | Field       | Type          | Null | Key | Default | Extra |
 |-------------|---------------|------|-----|---------|-------|
 | id          | char(30)      | NO   |     | NULL    |       |
@@ -447,8 +422,7 @@ GeMSTONE-main/
 
 
 
-*P*ROBABILITIES**
-
+**PROBABILITIES**
 | Field       | Type     | Null | Key | Default | Extra |
 |-------------|----------|------|-----|---------|-------|
 | id          | char(15) | NO   | PRI | NULL    |       |
@@ -477,8 +451,7 @@ GeMSTONE-main/
 
 
 
-*P*ROTEIN**
-
+**PROTEIN**
 | Field | Type      | Null | Key | Default | Extra |
 |-------|-----------|------|-----|---------|-------|
 | id    | int(11)   | NO   | MUL | NULL    |       |
@@ -486,8 +459,7 @@ GeMSTONE-main/
 
 
 
-*P*ROVEAN_SIFT**
-
+**PROVEAN_SIFT**
 | Field               | Type         | Null | Key | Default | Extra |
 |---------------------|--------------|------|-----|---------|-------|
 | DBSNP_ID            | varchar(100) | YES  |     | NULL    |       |
@@ -511,8 +483,7 @@ GeMSTONE-main/
 
 
 
-*R*EACTOME_EntrezID**
-
+**REACTOME_EntrezID**
 | Field     | Type           | Null | Key | Default | Extra |
 |-----------|----------------|------|-----|---------|-------|
 | Pathway   | varchar(500)   | YES  |     | NULL    |       |
@@ -521,8 +492,7 @@ GeMSTONE-main/
 
 
 
-*S*EQUENCE**
-
+**SEQUENCE**
 | Field    | Type    | Null | Key | Default | Extra |
 |----------|---------|------|-----|---------|-------|
 | id       | int(11) | NO   | PRI | NULL    |       |
@@ -530,8 +500,7 @@ GeMSTONE-main/
 
 
 
-*T*AGC128_hg19**
-
+**TAGC128_hg19**
 | Field | Type         | Null | Key | Default | Extra |
 |-------|--------------|------|-----|---------|-------|
 | CHROM | varchar(3)   | NO   | PRI | NULL    |       |
@@ -544,8 +513,7 @@ GeMSTONE-main/
 
 
 
-*T*AGC128_hg38**
-
+**TAGC128_hg38**
 | Field | Type         | Null | Key | Default | Extra |
 |-------|--------------|------|-----|---------|-------|
 | CHROM | varchar(3)   | NO   | PRI | NULL    |       |
@@ -558,8 +526,7 @@ GeMSTONE-main/
 
 
 
-*U*NIPROT_PFAM_DOMAINS**
-
+**UNIPROT_PFAM_DOMAINS**
 | Field       | Type         | Null | Key | Default | Extra |
 |-------------|--------------|------|-----|---------|-------|
 | UNIPROT     | varchar(20)  | NO   | PRI | NULL    |       |
@@ -570,8 +537,7 @@ GeMSTONE-main/
 
 
 
-*V*ARIANTS**
-
+**VARIANTS**
 | Field        | Type      | Null | Key | Default | Extra |
 |--------------|-----------|------|-----|---------|-------|
 | id           | char(25)  | NO   | MUL | NULL    |       |
@@ -580,8 +546,7 @@ GeMSTONE-main/
 
 
 
-*W*EIGHTS**
-
+**WEIGHTS**
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|-----|---------|--
 | Field   | Type                                                                                                                                                                                                                                                     | Null | Key | Default | Extra |
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|-----|---------|-------|
@@ -592,8 +557,7 @@ GeMSTONE-main/
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|-----|---------|---
 
 
-*d*bNSFP**
-
+**dbNSFP**
 | Field                    | Type         | Null | Key | Default | Extra |
 |--------------------------|--------------|------|-----|---------|-------|
 | CHROM                    | varchar(5)   | YES  |     | NULL    |       |
@@ -640,8 +604,7 @@ GeMSTONE-main/
 
 
 
-*e*nst_ensg**
-
+**enst_ensg**
 | Field                 | Type        | Null | Key | Default | Extra |
 |-----------------------|-------------|------|-----|---------|-------|
 | ENSEMBL_TRANSCRIPT_ID | varchar(20) | YES  |     | NULL    |       |
@@ -649,8 +612,7 @@ GeMSTONE-main/
 
 
 
-*g*ID_Uniprot**
-
+**gID_Uniprot**
 | Field   | Type        | Null | Key | Default | Extra |
 |---------|-------------|------|-----|---------|-------|
 | Gene_ID | varchar(20) | YES  |     | NULL    |       |
@@ -658,8 +620,7 @@ GeMSTONE-main/
 
 
 
-*g*ID_gNames**
-
+**gID_gNames**
 | Field     | Type        | Null | Key | Default | Extra |
 |-----------|-------------|------|-----|---------|-------|
 | Gene_ID   | varchar(20) | YES  |     | NULL    |       |
@@ -667,8 +628,7 @@ GeMSTONE-main/
 
 
 
-*g*ID_gSymbol**
-
+**gID_gSymbol**
 | Field  | Type        | Null | Key | Default | Extra |
 |--------|-------------|------|-----|---------|-------|
 | ID     | varchar(40) | YES  |     | NULL    |       |
@@ -676,8 +636,7 @@ GeMSTONE-main/
 
 
 
-*g*Symbol_gID_biomart**
-
+**gSymbol_gID_biomart**
 | Field  | Type        | Null | Key | Default | Extra |
 |--------|-------------|------|-----|---------|-------|
 | Symbol | varchar(40) | YES  |     | NULL    |       |
@@ -685,8 +644,7 @@ GeMSTONE-main/
 
 
 
-*g*erp_elements**
-
+**gerp_elements**
 | Field   | Type        | Null | Key | Default | Extra |
 |---------|-------------|------|-----|---------|-------|
 | CHROM   | varchar(5)  | YES  |     | NULL    |       |
@@ -698,8 +656,7 @@ GeMSTONE-main/
 
 
 
-*h*g19_hg38_mapping**
-
+**hg19_hg38_mapping**
 | Field | Type        | Null | Key | Default | Extra |
 |-------|-------------|------|-----|---------|-------|
 | CHROM | varchar(3)  | NO   | PRI | NULL    |       |
@@ -708,8 +665,7 @@ GeMSTONE-main/
 
 
 
-*h*g38_hg19_mapping**
-
+**hg38_hg19_mapping**
 | Field | Type        | Null | Key | Default | Extra |
 |-------|-------------|------|-----|---------|-------|
 | CHROM | varchar(3)  | NO   | PRI | NULL    |       |
@@ -718,8 +674,7 @@ GeMSTONE-main/
 
 
 
-*m*3D_modbase_models**
-
+**m3D_modbase_models**
 | Field                 | Type        | Null | Key | Default | Extra |
 |-----------------------|-------------|------|-----|---------|-------|
 | uniprot               | varchar(10) | YES  |     | NULL    |       |
@@ -737,8 +692,7 @@ GeMSTONE-main/
 
 
 
-*m*3D_pdb_structures_index**
-
+**m3D_pdb_structures_index**
 | Field           | Type        | Null | Key | Default | Extra |
 |-----------------|-------------|------|-----|---------|-------|
 | uniprot         | varchar(10) | YES  |     | NULL    |       |
@@ -753,8 +707,7 @@ GeMSTONE-main/
 
 
 
-*p*dbid_chain_uniprot**
-
+**pdbid_chain_uniprot**
 | Field   | Type        | Null | Key | Default | Extra |
 |---------|-------------|------|-----|---------|-------|
 | pdbid   | varchar(5)  | YES  |     | NULL    |       |
