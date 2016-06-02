@@ -82,8 +82,7 @@ GeMSTONE-main/
 | pdbid_chain_uniprot      |
 
 
-4. Items per table
-
+# Database Manifest
 
 **1000G_hg19**
 
