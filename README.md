@@ -1,7 +1,4 @@
-# gemstone
-
-
-1. Directory structure
+# Directory structure
 
 GeMSTONE-data/: non-MySQL data sources 
 GeMSTONE-main/
@@ -13,7 +10,7 @@ GeMSTONE-main/
 
 
 
-2. Tools required
+# Tools required
 
 |Tool	|Version	|URL |
 |-------|-----------|----|
@@ -28,7 +25,7 @@ GeMSTONE-main/
 |PLINK/SEQ		|v0.10		|	https://atgu.mgh.harvard.edu/plinkseq/index.shtml|
 |MySQL			|5.7.9		|	https://www.mysql.com|
 
-3. Databases required
+# Databases required
 
 
 | Tables_in_germline       |
